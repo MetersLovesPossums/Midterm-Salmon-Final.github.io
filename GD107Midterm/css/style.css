@@ -1,0 +1,116 @@
+*{background-color: #aee6dd}
+.top {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around; 
+	background-color:#f2783a;
+}
+#header1 {
+  background-color: #f2783a;
+  font-family: Rockwell;
+  color: white
+}
+.images {
+    width: 60%
+  }
+  .next { 
+    text-align: right
+  }
+  #next-button {
+    background-color: #f2783a;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+      font-family:rockwell;
+  }
+  #next-button:hover {
+    background-color: #d16128
+  }
+  #salmon-pic-eggs {
+    background-size: contain;
+      max-width:100%;
+      border: 15px solid #f2783a;
+    padding: 20px;
+  }
+  .salmon-eggs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  #eggs-text{
+    text-align:center;
+    font-family: Rockwell;
+  }
+  #salmon-smolts-id {
+    background-size: contain;
+      max-width:100%;
+      border: 15px solid #f2783a;
+    padding: 20px;
+  }
+  .salmon-smolts {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  #smolts-text{
+    text-align:center;
+    font-family: Rockwell;
+  }
+  #salmon-adult-pic {
+    background-size: contain;
+      max-width:100%;
+      border: 15px solid #f2783a;
+    padding: 20px;
+  }
+  .salmon-adult {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  #adult-text{
+    text-align:center;
+    font-family: Rockwell;
+  }
+  #salmon-breeding-img {
+    background-size: contain;
+      max-width:100%;
+      border: 15px solid #f2783a;
+    padding: 20px;
+  }
+  .salmon-breeding {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  #breeding-text{
+    text-align:center;
+    font-family: Rockwell;
+  }
+  .salmon-follow {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    pointer-events: none;
+  background: transparent; 
+}
+#salmon-no-background {
+  -webkit-transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
